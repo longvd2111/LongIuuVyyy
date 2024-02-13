@@ -1,0 +1,29 @@
+.valentine-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 750px;
+  background-color: pink;
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+  color: white;
+}
+.ociButton {
+  border-radius: 10px;
+  background: rgb(34, 197, 94);
+  color: white;
+  border-width: 0;
+}
+.hokButton {
+  border-radius: 10px;
+  background: rgb(239, 68, 68);
+  color: white;
+  border-width: 0;
+}
+.neunhu {
+  color: white;
+  font-size: 90px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
