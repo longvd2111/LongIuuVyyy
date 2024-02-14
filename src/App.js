@@ -1,5 +1,9 @@
 import { useState } from "react";
 import "./App.css";
+import KissVy from '../src/assets/images/KissVyy.gif';
+import Vy from '../src/assets/images/Vyyy.jpg';
+import Vy0 from '../src/assets/images/Vy0.png';
+import vy1 from '../src/assets/images/vy1.png';
 
 const phrases = [
   "hok",
@@ -32,17 +36,14 @@ function App() {
           <div className="neunhu">
             <img
               
-              src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif"
+              src={KissVy}
             />
-            <div className="text">Ỏooooo, Iuu Vy thế nhòooooo</div>
+            <div className="text">Orooooo, Yêuu Vy thía nhòooo !!!!!</div>
           </div>
         </>
       ) : (
         <>
-          <img
-            
-            src="https://media1.tenor.com/m/bWs4Kitqmu0AAAAC/heartbeat-heart.gif"
-          />
+          <img className="img" src={Vy0}></img>
 
           <div>Vy oiiii,will diu be mai va len taiii?</div>
           <div>

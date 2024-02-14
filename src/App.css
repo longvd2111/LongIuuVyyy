@@ -1,14 +1,17 @@
-.valentine-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 750px;
-  background-color: pink;
-  font-family: "Roboto", sans-serif;
-  font-size: 50px;
-  color: white;
-}
+
+  .valentine-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Thay vì height cố định, sử dụng chiều cao tối thiểu của viewport */
+    background-color: pink;
+    font-family: "Sacramento", sans-serif;
+    font-size: 5vw; /* Sử dụng đơn vị vw để kích thước phù hợp với kích thước của màn hình */
+    color: red;
+    padding: 20px; /* Thêm padding để tránh các phần tử gần lề màn hình */
+  }
+
 .ociButton {
   border-radius: 10px;
   background: rgb(34, 197, 94);
@@ -22,8 +25,14 @@
   border-width: 0;
 }
 .neunhu {
-  color: white;
+  color: red;
   font-size: 90px;
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: "Sacramento", sans-serif;
+}
+
+.img{
+  width: 300px;
+  height: 300px;
+  border: 2px sloid rgb(223, 78, 107);
 }
